@@ -7,7 +7,6 @@ import (
 
 type WebService interface {
 	Config() *Config
-	Routes() map[string]Handler
 }
 
 var (
